@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <h4 class="text-white"><a href="index.html" class="text-white">Home</a></h4>
+                <h4 class="text-white"><a href="about.html" class="text-white">About</a></h4>
+                <h4 class="text-white"><a href="media.html" class="text-white">Media</a></h4>
+                <h4 class="text-white"><a href="contact.html" class="text-white">Contact Us</a></h4>
+                <h4 class="text-white"><a href="FAQ.html" class="text-white">FAQ</a></h4>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <h1 class="navbar-brand mb-0">Israel Trips</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Israel Trips - Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            text-align: center;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .social-icons {
+            list-style: none;
+            padding: 0;
+        }
+
+        .social-icons li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-icons li a {
+            color: white;
+            font-size: 24px;
+        }
+
+        /* Custom CSS for contact form */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form .form-group {
+            margin-bottom: 20px;
+        }
+
+        .contact-form .form-control {
+            border-radius: 0;
+        }
+
+        .contact-form textarea.form-control {
+            resize: none;
+        }
+
+        .contact-form .btn-primary {
+            border-radius: 0;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+        }
+
+        .contact-info h4 {
+            font-weight: bold;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-info">
+                    <h4>Our Address</h4>
+                    <p>123 Main Street</p>
+                    <p>City, State 12345</p>
+                    <p>Country</p>
+                    <h4>Phone</h4>
+                    <p>+1 (555) 123-4567</p>
+                    <h4>Email</h4>
+                    <p>info@israeltrips.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="successModalLabel">Success!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Your message has been sent successfully.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="footer-info">
+            <p>Website built by Natan Tzidkani</p>
+            <ul class="social-icons">
+                <li><a href="https://il.linkedin.com/company/tourist-israel"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/groups/583367362567958/"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com/@Travelingisraelinfo"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.navbar-toggler').click(function () {
+            $(this).toggleClass('collapsed');
+        });
+    });
+
+    $(document).ready(function () {
+        $('.navbar-toggler').click(function () {
+            $(this).toggleClass('collapsed');
+        });
+
+        $('.contact-form').on('submit', function (e) {
+            e.preventDefault(); // Prevent the form from being submitted
+
+            // Show the success modal
+            $('#successModal').modal('show');
+        });
+
+        // Reset form fields when the modal is closed
+        $('#successModal').on('hidden.bs.modal', function () {
+            $('.contact-form')[0].reset();
+        });
+    });
+
+    
+</script>
